@@ -1,0 +1,15 @@
+{
+  "name": "universal-launch-brag",
+  "version": "1.0.0",
+  "description": "Premium open-source alternative for generating rapid project launch clips programmatically.",
+  "type": "module",
+  "main": "generate-video.js",
+  "scripts": {
+    "brag": "node generate-video.js"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "gsap": "^3.12.5",
+    "playwright": "^1.49.0"
+  }
+}
